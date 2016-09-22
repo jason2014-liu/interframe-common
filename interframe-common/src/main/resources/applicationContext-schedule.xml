@@ -32,7 +32,9 @@
 		<property name="triggers">
 			<list>
 				<ref bean="cronTrigger" />
+				<!-- 
 				<ref bean="simpleTrigger" />
+				 -->
 			</list>
 		</property>
 	</bean>
