@@ -8,7 +8,7 @@
 * @Copyright
 * @Version 
 */
-package com.interframe.common;
+package com.interframe.common.schedule;
 
 /**
  * TODO

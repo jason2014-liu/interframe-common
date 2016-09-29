@@ -8,7 +8,7 @@
 * @Copyright
 * @Version 
 */
-package com.interframe.common;
+package com.interframe.common.schedule;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +17,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.interframe.common.ExampleBusinessObject;
+import com.interframe.common.schedule.ExampleBusinessObject;
 
 /**
 * TODO
