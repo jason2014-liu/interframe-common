@@ -141,11 +141,11 @@ public class LuceneDemo {
 		if (hits != null && hits.length > 0) {
 			for (int i = 0; i < hits.length; i++) {
 				Document hitdoc = searcher.doc(hits[i].doc);
-				System.out.println("content:" + hitdoc.get("content"));
+				System.out.println("title:" + hitdoc.get("title"));
 				
+				//highlighter 
 				TokenStream ts = analyzer.tokenStream("title", new StringReader(hitdoc.get("title")));
 				String title = highlighter.getBestFragment(ts, hitdoc.get("title"));
-				
 				System.out.println("highlighter title:" + title);
 			}
 		}
